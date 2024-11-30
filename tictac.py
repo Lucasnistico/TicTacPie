@@ -49,16 +49,15 @@ def reset_game():
     label["text"] = "Player X's turn"
     game_over = False
 
-# Create the main window
 root = tk.Tk()
 root.title("Tic Tac Toe")
 
-# Game variables
+
 current_player = "X"
 game_over = False
 board = []
 
-# Create the game board
+
 for i in range(3):
     row = []
     for j in range(3):
@@ -68,9 +67,8 @@ for i in range(3):
         row.append(btn)
     board.append(row)
 
-# Create a label to display the current player
 label = tk.Label(root, text="Player X's turn", font=("Arial", 18))
 label.grid(row=3, column=0, columnspan=3)
 
-# Run the main loop
+
 root.mainloop()
