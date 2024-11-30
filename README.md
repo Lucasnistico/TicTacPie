@@ -1,4 +1,4 @@
-# 🕹️ Tic Tac Toe 
+# 🕹️ Tic Tac Toe.py
 
 Welcome to **Tic Tac Toe**, the classic game of Xs and Os! 🎉 This project features an interactive and visually engaging version of the game, built with Python using the Tkinter library.
 
